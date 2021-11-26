@@ -39,6 +39,10 @@ body {
   margin: 0 auto 0;
 }
 
+.add__input, .tasks-item__input {
+  outline: none;
+}
+
 .add__input {
   width: 56%;
   display: inline-block;
@@ -57,6 +61,7 @@ body {
   width: 60px;
   font-family: Lato, sans-serif;
   cursor: pointer;
+  outline: none;
 }
 
 .add__btn:hover, .tasks-item__edit-btn:hover, .tasks-item__del-btn:hover {
