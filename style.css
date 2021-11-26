@@ -1,26 +1,15 @@
-/* Reset default styles */
+/* Basic Style */
 body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
 
-ul {
+.tasks {
   margin: 0;
   padding: 0;
 }
 
-li,
-h3 {
-  list-style: none;
-}
-
-input,
-button{
-  outline: none;
-}
-
-/* Basic Style */
 .header {
   width: 500px;
   margin: 0 auto;
