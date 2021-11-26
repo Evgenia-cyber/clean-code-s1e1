@@ -87,7 +87,7 @@ button:hover {
   text-transform: uppercase;
 }
 
-input[type="text"] {
+.add__input, .tasks-item__input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -100,7 +100,7 @@ input[type="text"] {
   color: #888;
 }
 
-input[type="text"]:focus {
+.add__input:focus, .tasks-item__input:focus {
   color: #333;
 }
 
@@ -115,7 +115,7 @@ input[type="text"]:focus {
 }
 
 /* Task list */
-li {
+.tasks__item{
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -124,22 +124,18 @@ li {
   align-items: center;
 }
 
-li > * {
-  vertical-align: middle;
-}
-
-li > input[type="checkbox"] {
+.tasks-item__checkbox {
   margin: 0 10px;
 }
 
-li > label {
+.tasks-item__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-li >  input[type="text"] {
+.tasks-item__input {
   width: 226px;
 }
 
