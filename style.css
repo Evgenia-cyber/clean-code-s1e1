@@ -160,15 +160,15 @@ ul#completed-tasks label {
 }
 
 /* Edit Task */
-ul li input[type=text] {
+.tasks-item__input {
   display: none;
 }
 
-ul li.editMode input[type=text] {
+.tasks__item-isEdit .tasks-item__input {
   display: inline-block;
   width: 224px;
 }
 
-ul li.editMode label {
+.tasks__item-isEdit .tasks-item__label {
   display: none;
 }
